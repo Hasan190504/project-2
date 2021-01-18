@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        body{
+            background-color: seashell;
+        }
+        main{
+            
+            width: 1100px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        section{
+            background-color: rosybrown;
+            margin: 1em ;
+            padding: 1em;
+            border-radius: 1em;
+        }
+        .pler,.bolg{
+            display: flex;
+            align-items: center;
+        }
+        .blog-img{
+            margin-right: 50px;
+        }
+        .pler-img{
+            width: 50px;
+            margin-right: 10px;
+        }
+        .top-plyears, .courses{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+        }
+        .blogs{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 30px;
+
+        }
+        .bolg{
+            width: 500px ;
+        }
+        .reating{
+            display: flex;
+        }
+        .star{
+            color: yellow;
+        }
+        .star-5{
+            color: rgb(124, 117, 124);
+        }
+        @media (max-width: 988px)
+        {
+            .top-plyears{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            place-items: center;
+
+            }
+            .blogs{
+            display:block;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+           align-items: center;
+            }
+            .courses{
+                display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            place-items: center;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+<header>
+
+</header>    
+<main>
+    <section>
+      <h1 class="setion-title">Top plyears</h1>
+        <div class="top-plyears">
+            <div class="pler">
+                <img class="pler-img" src="images/Ellipse.png" alt="">
+                <h3>Hossain</h3>
+            </div>
+            <div class="pler">
+                <img class="pler-img" src="images/Ellipse-1.png" alt="">
+                <h3>Hossain</h3>
+            </div>
+            <div class="pler">
+                <img class="pler-img" src="images/Ellipse-2.png" alt="">
+                <h3>Hossain</h3>
+            </div>
+            <div class="pler">
+                <img class="pler-img" src="images/Ellipse-3.png" alt="">
+                <h3>Hossain</h3>
+            </div>
+            <div class="pler">
+                <img class="pler-img" src="images/Ellipse-4.png" alt="">
+                <h3>Hossain</h3>
+            </div>
+            <div class="pler">
+                <img class="pler-img" src="images/Ellipse-5.png" alt="">
+                <h3>Hossain</h3>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="blog-section">Top Bolgs</h1>
+        <div class="blogs">
+            <div class="bolg">
+                <div><img class="blog-img" src="images/Mask Group.png" alt="" style="width: 300px;"></div>
+               <div> <h3> 13 of My Favorite UI/UX Goodies</h3>
+                <p>By <a href="#">Hossain</a></p></div>
+            </div>
+            <div class="bolg">
+                <div><img class="blog-img" src="images/Mask Group-1.png" alt="" style="width: 300px;"></div>
+               <div> <h3> 13 of My Favorite UI/UX Goodies</h3>
+                <p>By <a href="#">Hossain</a></p></div>
+            </div>
+            <div class="bolg">
+                <div><img class="blog-img" src="images/Mask Group-2.png" alt="" style="width: 300px;"></div>
+               <div> <h3> 13 of My Favorite UI/UX Goodies</h3>
+                <p>By <a href="#">Hossain</a></p></div>
+            </div>
+            <div class="bolg">
+                <div><img class="blog-img" src="images/Mask Group.png" alt="" style="width: 300px;"></div>
+               <div> <h3> 13 of My Favorite UI/UX Goodies</h3>
+                <p>By <a href="#">Hossain</a></p></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="courses-title">Latest courses</h1>
+        <div class="courses">
+            <div class="cours">
+                <div class="corurs-img"><img src="images/Mask Group-3.png" alt="" style="width: 300px;"></div>
+                <div class="about-cours"><h3>React Complete Guide 2022</h3>
+                <a href="#">Reed Krakoff.</a>
+                </div>
+                <div class="reating">
+                    <div class="star star-1"><i class="far fa-star"></i></div>
+                    <div class="star star-2"><i class="far fa-star"></i></div>
+                    <div class="star star-3"><i class="far fa-star"></i></div>
+                    <div class="star star-4"><i class="far fa-star"></i></div>
+                    <div class="star star-5"><i class="far fa-star"></i></div>
+                    <div class="tim"><i class="far fa-clock"></i> <span>1.5hour</span> </div>
+                </div>
+            </div>
+            <div class="cours">
+                <div class="corurs-img"><img src="images/Mask Group-4.png" alt="" style="width: 300px;"></div>
+                <div class="about-cours"><h3>React Complete Guide 2022</h3>
+                <a href="#">Reed Krakoff.</a>
+                </div>
+                <div class="reating">
+                    <div class="star star-1"><i class="far fa-star"></i></div>
+                    <div class="star star-2"><i class="far fa-star"></i></div>
+                    <div class="star star-3"><i class="far fa-star"></i></div>
+                    <div class="star star-4"><i class="far fa-star"></i></div>
+                    <div class="star star-5"><i class="far fa-star"></i></div>
+                    <div class="tim"><i class="far fa-clock"></i> <span>1.5hour</span> </div>
+                </div>
+            </div>
+            <div class="cours">
+                <div class="corurs-img"><img src="images/Mask Group-5.png" alt="" style="width: 280px; height: 140px;"></div>
+                <div class="about-cours"><h3>React Complete Guide 2022</h3>
+                <a href="#">Reed Krakoff.</a>
+                </div>
+                <div class="reating">
+                    <div class="star star-1"><i class="far fa-star"></i></div>
+                    <div class="star star-2"><i class="far fa-star"></i></div>
+                    <div class="star star-3"><i class="far fa-star"></i></div>
+                    <div class="star star-4"><i class="far fa-star"></i></div>
+                    <div class="star star-5"><i class="far fa-star"></i></div>
+                    <div class="tim"><i class="far fa-clock"></i> <span>1.5hour</span> </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+</main>
+
+</body>
+</html>
